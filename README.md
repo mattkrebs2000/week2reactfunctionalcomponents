@@ -22,6 +22,6 @@ Assignment ---
 
 1. Students should try to transform the functional components which are given to class components. 
 
-2. Once they have successfully done that they should create two sections of the same application - one section would be the functional components side and the other section would be the class components side. 
+2. Once they have successfully done that they should create two sections of the same application - one section would be the functional components side and the other section would be the class components side. The sides will look the same with a button on the navbar saying 'Go to "Class" side' OR 'Go to "Function" side'
 
 3. Students should create comments throughout to help with their understandings of the differences between class components and functional components and some of the things that go with them. 

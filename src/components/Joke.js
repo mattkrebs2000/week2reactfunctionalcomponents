@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import Navbar from "./pages/layout/Navbar.js";
 
 export default function Joke() {
 	const [joke, setJoke] = useState('');
@@ -18,18 +19,22 @@ export default function Joke() {
 	};
 
 	return (
+	<div>
+		<Navbar />
 		<div className="mt-4">
-			<div className="card">
-				<h5 className="card-header">Dad Joke</h5>
-				<div className="card-body">
-					<p className="card-text">{joke.joke}</p>
-					<button className="btn btn-primary text-white" onClick={fetchJoke}>
-						Get Another Joke
-					</button>
-				</div>
-			</div>
-		</div>
-	);
+      <div className="card">
+        
+        <h5 className="card-header">Dad Joke</h5>
+        <div className="card-body">
+          <p className="card-text">{joke.joke}</p>
+          <button className="btn btn-primary text-white" onClick={fetchJoke}>
+            Get Another Joke
+          </button>
+        </div>
+      </div>
+	</div>
+	</div>
+  );
 }
 
 
