@@ -5,11 +5,11 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-success bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-success">
           <a className="navbar-brand" href="/">
             Go to "Function" Side
           </a>
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href="/2">
             Dad Jokes App
           </a>
           <button
@@ -26,7 +26,7 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <a className="nav-link" href="/about">
+                <a className="nav-link" href="/about2">
                   About <span className="sr-only">(current)</span>
                 </a>
               </li>
